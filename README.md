@@ -1,4 +1,4 @@
-# setthetheme
+# setTheTheme
 
 A simple Flutter project with white label architecture. 
 To see it working, run on terminal one of the three stabilished themes:
