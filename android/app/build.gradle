@@ -57,6 +57,28 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    flavorDimensions "app"
+
+       productFlavors {
+           greenTheme {
+               dimension "app"
+               applicationId "br.com.greenTheme"
+               resValue "string", "app_name", "Green Theme"
+           }
+
+           purpleTheme {
+               dimension "app"
+               applicationId "br.com.purpleTheme"
+               resValue "string", "app_name", "Purple Theme"
+           }
+
+           redTheme {
+               dimension "app"
+               applicationId "br.com.redTheme"
+               resValue "string", "app_name", "Red Theme"
+           }
+       }
 }
 
 flutter {
