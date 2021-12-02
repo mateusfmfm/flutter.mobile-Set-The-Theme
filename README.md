@@ -1,4 +1,4 @@
-# setthetheme
+# setTheTheme
 
 A simple Flutter project with white label structure done by Mateus Félix. 
 On this project, we addapt the initial Flutter Create project to init with White Label structure.
