@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:setthetheme/environment/app.dart';
+import 'package:setthetheme/widgets/stylized_flutter_logo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            StylizedFlutterLogo(colorFilter: app.colors!.colorFilter!),
             const Text(
               'You have pushed the button this many times:',
             ),
@@ -62,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: app.colors!.primary,
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),

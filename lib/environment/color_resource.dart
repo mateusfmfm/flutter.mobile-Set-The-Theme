@@ -4,4 +4,5 @@ abstract class ColorResource {
   Color? secondary;
   Color? background;
   Color? text;
+  ColorFilter? colorFilter;
 }
