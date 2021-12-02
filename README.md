@@ -14,4 +14,11 @@ All the assets and colors are defined on lib/environment folder.
 
 It will works, for now, only on Android. Need to configure all the iOS environment with XCode.
 
+Any dougts, please send a message!
+
+- mateusfmfm@outlook.com
+- https://github.com/mateusfmfm
+- https://www.linkedin.com/in/mateusfmfm/
+
+
 
