@@ -8,7 +8,9 @@ To see it working, run on terminal one of these commands to start one of the thr
 - flutter run --flavor purpleTheme -t lib/environment/purple_theme/main_purple.dart
 - flutter run --flavor redTheme -t lib/environment/red_theme/main_red.dart
 
-It will addapts all the assets for each respective flavor.
+It will addapts all the colors and assets for each respective flavor.
+The colors will be set by the ColorResource class itens, and the asset itself will be a
+randomly choosed.
 
 All the assets and colors are defined on lib/environment folder. 
 
