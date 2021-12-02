@@ -14,11 +14,41 @@ All the assets and colors are defined on lib/environment folder.
 
 It will works, for now, only on Android. Need to configure all the iOS environment with XCode.
 
-Any dougts, please send a message!
+Any doubts, please send a message!
 
 - mateusfmfm@outlook.com
 - https://github.com/mateusfmfm
 - https://www.linkedin.com/in/mateusfmfm/
+
+------------------------------------------------------------------------------
+For VSCode users, set the launch.json as follow:
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Green Theme",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/environment/green_theme/main_green.dart",
+      "args": ["--flavor", "greenTheme"]
+    },
+    {
+      "name": "Purple Theme",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/environment/purple_theme/main_purple.dart",
+      "args": ["--flavor", "purpleTheme"]
+    },
+    {
+      "name": "Red Theme",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/environment/red_theme/main_red.dart",
+      "args": ["--flavor", "redTheme"]
+    }
+  ]
+}
 
 
 

@@ -12,7 +12,7 @@ class StylizedFlutterLogo extends StatelessWidget {
     App app = App.of(context);
     return ColorFiltered(
       colorFilter: colorFilter,
-      child: FlutterLogo(size: size),
+      child: const FlutterLogo(size: 80),
     );
   }
 }

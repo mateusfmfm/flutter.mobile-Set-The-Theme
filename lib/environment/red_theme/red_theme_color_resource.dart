@@ -9,10 +9,13 @@ class RedThemeColorResource implements ColorResource {
   Color? secondary = const Color(0xFFAEEA00);
 
   @override
-  Color? background = const Color(0xFF616161);
+  Color? background = const Color(0xFFFFFFFF);
 
   @override
-  Color? text = const Color(0xff411E5A);
+  Color? container = const Color(0xFFFFEBEE);
+
+  @override
+  Color? text = const Color(0xff212121);
 
   @override
   ColorFilter? colorFilter = const ColorFilter.matrix(<double>[

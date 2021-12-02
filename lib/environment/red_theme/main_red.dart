@@ -10,7 +10,7 @@ Future<void> main() async {
 
   var app = App(
     appConfig: AppSettings(
-        appName: "Red Theme", asset: "redTheme", appType: AppType.RED),
+        appName: "Red Theme", asset: "red", appType: AppType.RED),
     strings: RedThemeStringResource(),
     colors: RedThemeColorResource(),
     child: const MyApp(),

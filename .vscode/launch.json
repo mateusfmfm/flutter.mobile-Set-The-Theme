@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Green Theme",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/environment/green_theme/main_green.dart",
+      "args": ["--flavor", "greenTheme"]
+    },
+    {
+      "name": "Purple Theme",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/environment/purple_theme/main_purple.dart",
+      "args": ["--flavor", "purpleTheme"]
+    },
+    {
+      "name": "Red Theme",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/environment/red_theme/main_red.dart",
+      "args": ["--flavor", "redTheme"]
+    }
+  ]
+}
